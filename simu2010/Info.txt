@@ -1,0 +1,2 @@
+Die Software "Laufsimulation" benötigt das "Microsoft .NET Framework 3.5 Service pack 1 (Full Package)".
+Sie können es von der Internet-Seite von Microsoft downloaden oder die auf der CD mitgelieferte Version installieren (dotnetfx35sp1.exe).

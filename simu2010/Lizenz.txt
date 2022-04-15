@@ -1,0 +1,21 @@
+Die Software stelle ich ihnen kostenlos zur Verfügung. 
+
+
+1) Lizenzbestimmungen
+
+Die Software ist Freeware. Sie dürfen die Software auf beliebig vielen Computern solange einsetzen, wie Sie wollen. Die Software ist NICHT Public Domain Software. Das Copyright sowie alle Eigentums- und Urheberrechte an der Software und dem Quellcode bleiben bei Karl Meyer. Sie dürfen die Software unter folgenden Bedingungen benutzen und weitergeben:
+
+    * Jede Änderung am Programm und der Dokumentation ist verboten.
+    * Sie müssen alle Dateien weitergeben, die auch im Originalpaket enthalten sind.
+    * Sie haben die Lizenz sowie die folgenden Garantiebestimmungen und den Haftungsausschluss gelesen und sind damit einverstanden.
+    * Sie dürfen die Software auch als Teil eines Softwarepaketes weitergeben solange die obigen Bedingungen eingehalten werden. Sie brauchen keine vorherige Erlaubnis für dieser Art der Weitergabe. Über eine kurze Nachricht mit einer Beschreibung des Softwarepaketes und Ihren Kommentar zu unserem Produkt wären wir Ihnen dankbar.
+
+
+
+2) Garantiebestimmungen
+
+Die Software und Dokumentation wird ohne jede Garantie angeboten. Karl Meyer gibt keine ausdrücklichen oder stillschweigenden Garantien, einschließlich aber nicht beschränkt auf Garantien über Aussehen, Marktüblichkeit oder Verwendbarkeit, für einen bestimmten Zweck. Karl Meyer garantiert weder, dass die Funktionen der Software Ihren Anforderungen entspricht, noch dass die Software fehlerfrei ist und ohne Unterbrechungen funktioniert, noch dass Fehler in der Software oder Dokumentation behoben werden.
+
+3) Haftungsauschluss
+
+Unter keinen Umständen (eingeschlossen Fahrlässigkeit) ist Karl Meyer haftbar für Einkommensverlust oder Schäden jeglicher Art die durch den Einsatz oder fehlender Möglichkeit zum Einsatz des Produktes oder der Dokumentation entstehen könnten. Dies gilt auch, wenn Karl Meyer über die Möglichkeit des Auftretens solcher Fälle informiert wurde. Einige Staaten erlauben die Einschränkung von Garantien bzw. den Ausschluss von Haftung nicht, in diesen Fällen trifft die Einschränkung der Garantie bzw. der Haftungsausschluss für Sie nicht zu. Eventuelle Schadensersatzansprüche bleiben dann auf die Höhe der evtl. entrichteten Lizenzgebühr beschränkt.

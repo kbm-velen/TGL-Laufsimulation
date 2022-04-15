@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="simu">
+</Property><Property Name="Projektmappendatei" Value="F:\USBNeu\programmmieren\Laufsimulation\vbNET\simu2010\simu.sln">
+</Property><Property Name="Date" Value="Montag, 9. März 2015">
+</Property><Property Name="Time" Value="14:23">
+</Property></Properties><Event ErrorLevel="0" Project="simu" Source="simu\simu.vbproj" Description="Projekt erfolgreich konvertiert">
+</Event><Event ErrorLevel="3" Project="simu" Source="simu\simu.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="simu.sln" Description="Die Projektmappe wurde erfolgreich konvertiert.">
+</Event><Event ErrorLevel="3" Project="" Source="simu.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="simu" Source="simu\simu.vbproj" Description="Überprüfung abgeschlossen: Upgrade der Projektdateien nicht erforderlich.">
+</Event></UpgradeLog>

@@ -1,0 +1,61 @@
+vb.net / xml
+
+Die Daten für einen Wettbewerb sollten in eine Datei gespeichert sein. Dafür könnte man das XML-Objekt verwenden. Folgende Daten müssen darin gespeichert werden:
+-Bild (1)
+-Strecken (mehrere)
+-Wettbewerbe (mehrere)
+
+Veranstaltung / Neu erzeugt eine neue xml-Datei
+Veranstaltung / öffnen list eine xml-Datei
+Veranstaltung / speichern unter : xml-Datei wird unter anderem Namen gespeichert.
+
+alle anderen Funktionen können bleiben
+eventuell zunächst alle Dateien temporär aus xml-Datei auf Festplatte schreiben
+
+ 
+
+----------------------------------------------------------------
+Um Bilder bspw. in einer Datenbank oder auch in einer XML-Datei zu speichern, bietet es sich an, diese in das Base64-Format zu konvertieren. Auch beim Versenden von Bildern als EMail-Anlage sollten diese nach Base64 codiert werden.
+
+Nachfolgend zwei Funktionen, mit denen sich genau das realisieren lässt. Auch der umgekehrte Weg wird gezeigt, d.h. aus einem Base64-codierten String wieder ein Image-Objekt zu erstellen.
+
+''' <summary>
+''' Konvertiert ein Image in einen Base64-codierten String
+''' </summary>
+''' <param name="oImage">Image-Objekt</param>
+''' <returns>Base64-codierter String</returns>
+Public Function ImageToBase64(ByVal oImage As Image) As String
+  If oImage IsNot Nothing Then
+    With New System.Drawing.ImageConverter
+      ' Image in Byte-Array umwandeln
+      Dim nBytes() As Byte = CType(.ConvertTo(oImage, GetType(Byte())), Byte())
+ 
+      ' Byte-Array in Base64-codierten String umwandeln
+      Return (Convert.ToBase64String(nBytes, _
+        Base64FormattingOptions.InsertLineBreaks))
+    End With
+  Else
+    ' Leerstring zurückgeben
+    Return ("")
+  End If
+End Function
+''' <summary>
+''' Konvertiert einen Base64-codierten String in ein Image-Objekt
+''' </summary>
+''' <param name="sData">Base64-codierter String</param>
+''' <returns>Image-Objekt</returns>
+Public Function Base64ToImage(ByVal sData As String) As Image
+  Dim oImage As Image = Nothing
+ 
+  If sData.Length > 0 Then
+    ' String decodieren und in Byte-Array umwandeln
+    Dim nBytes() As Byte = Convert.FromBase64String(sData)
+    If nBytes IsNot Nothing AndAlso nBytes.Length > 0 Then
+      ' Byte-Array in Image-Objekt umwandeln
+      With New System.Drawing.ImageConverter
+        oImage = CType(.ConvertFrom(nBytes), Image)
+      End With
+    End If
+  End If
+  Return (oImage)
+End Function
