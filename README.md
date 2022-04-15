@@ -5,9 +5,9 @@ Bei der Vorbereitung zu einer Laufveranstaltung gab es Probleme, die vielen gepl
 Selbst die Profis konnten nicht ohne weiteres die 5 Läufe auf drei verschiedenen Strecken zeitlich und örtlich unter einen Hut bringen. 
 Daraus entstand die Software "Laufveranstaltung Simulator".
 
-Du möchtest das Programm testen und nutzen? Dann lade den Ordner Beispiel runter, kopieren ihn irgendwo bei dir und versuchs. Das Programm ist auch ohne installation funktionsfähig.
+Du möchtest das Programm testen und nutzen? Dann lade den Ordner "Beispiel" runter, kopieren ihn irgendwo bei dir und versuchs. Das Programm ist auch ohne Installation funktionsfähig.
 
-Du möchtest das Programm ändern oder weiterentwickeln? dann lade dir den Quellcode (simu2010) runter, programiert habe ich dieses Programm zuletzt in vb.net 10.
+Du möchtest das Programm ändern oder weiterentwickeln? Dann lade dir den Quellcode (simu2010) runter, programmiert habe ich dieses Programm zuletzt in vb.net 10.
 
 
 Zunächst wird eine Karte als Bild-Datei (bmp, gif, jpg) benötigt. Auf dieser Karte werden die verschiedenen Strecken per Mausklick eingezeichnet.
